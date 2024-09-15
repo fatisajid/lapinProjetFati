@@ -1,0 +1,160 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Global style for all sections where the cards are */
+section {
+    display: flex;               /* Align elements in a row */
+    flex-wrap: wrap;             /* Allow cards to wrap if too many */
+    gap: 180px;                   /* Spacing between cards */
+    justify-content: center; /* Align cards to the left */
+    margin-bottom: 40px;         /* Spacing between sections */
+}
+
+/* Card Styles */
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease;
+    width: 18rem; /* Fixed width for cards */
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Card Image */
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Card Body */
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Button Styles */
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Headings */
+h2 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin: 40px 0 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    section {
+        flex-direction: column;  /* On smaller screens, stack the cards */
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
+
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+
+.containerj {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+h1 {
+    color: #0056b3;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+p {
+    font-size: 1.2em;
+    color: #666;
+    text-align: center;
+} 
+h2{
+    margin-bottom: 30px;
+    color: #0056b3;
+    font-weight: bold;
+}
+
+ .cardj-img-top {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 15px;
+} 
+
+ .cardj-body {
+    margin-top: 20px;
+}
+
+.price {
+    font-size: 1.5em;
+    color: black;
+    font-weight: bold;
+}
+
+/* .footer {
+    margin-top: 30px;
+    font-size: 0.8em;
+    color: #aaa;
+    text-align: center;
+} */
+
